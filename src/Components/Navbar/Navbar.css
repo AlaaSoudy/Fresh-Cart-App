@@ -1,0 +1,27 @@
+:root[data-bs-theme='dark'] {
+  --bs-body-bg: #121212;
+  --bs-body-color: #ffffff;
+  --bs-navbar-bg: #1e1e1e;
+  --bs-navbar-color: #ffffff;
+  --bs-footer-bg: #1e1e1e;
+  --bs-footer-color: #ffffff;
+}
+
+:root[data-bs-theme='light'] {
+  --bs-body-bg: #ffffff;
+  --bs-body-color: #000000;
+  --bs-navbar-bg: #f8f9fa;
+  --bs-navbar-color: #000000;
+  --bs-footer-bg: #f8f9fa;
+  --bs-footer-color: #000000;
+}
+
+.navbar {
+  background-color: var(--bs-navbar-bg) !important;
+  color: var(--bs-navbar-color) !important;
+}
+
+footer {
+  background-color: var(--bs-footer-bg) !important;
+  color: var(--bs-footer-color) !important;
+}

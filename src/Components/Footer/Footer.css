@@ -1,0 +1,90 @@
+.footer {
+  background: #f3f6f5;
+}
+
+
+.app-link-row {
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 0 15px;
+}
+
+.app-email {
+  max-width: 640px;
+  flex: 1 1 auto;
+  border-radius: 6px;
+  height: 44px;
+  padding: 8px 12px;
+  box-shadow: none;
+}
+
+.share-btn {
+  min-width: 150px;
+  height: 44px;
+  border-radius: 6px;
+  font-weight: 600;
+}
+
+
+.partners-row {
+  gap: 12px;
+}
+
+
+.partners-title {
+  font-weight: 600;
+  color: #333;
+  margin-right: 6px;
+  white-space: nowrap;
+}
+
+
+.partner-icon {
+  height: 20px;
+  display: inline-block;
+  object-fit: contain;
+}
+
+
+.badge-icon {
+  height: 34px;
+  display: inline-block;
+  object-fit: contain;
+}
+
+@media (max-width: 767px) {
+  .partners-row {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 10px;
+  }
+  .app-badges {
+    align-self: flex-end;
+  }
+  .partners-title { font-size: 14px; }
+}
+.partner-icon {
+  color: #28a745;
+  margin-right: 8px;
+}
+
+.app-badges svg {
+  color: #000;
+}
+.payment-partners svg {
+  color: #28a745; 
+  transition: color 0.3s ease;
+}
+
+.payment-partners svg:hover {
+  color: #1e7e34; 
+}
+
+.app-badges svg {
+  color: #28a745;
+  transition: color 0.3s ease;
+}
+
+.app-badges svg:hover {
+  color: #1e7e34;
+}
