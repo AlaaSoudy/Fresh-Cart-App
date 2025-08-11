@@ -5,7 +5,7 @@ export default function Footer() {
   const [email, setEmail] = useState('');
   const [showShareOptions, setShowShareOptions] = useState(false);
 
-  const appLink = 'https://yourapp.com/download';
+  const appLink = 'https://alaasoudy.github.io/Fresh-Cart-App/';
 
   function shareOnWhatsApp() {
     const url = `https://wa.me/?text=${encodeURIComponent(
